@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Password Recovery</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+
+   <header id="header">
+   <ul id="bar">
+      <li><img src="images/logo.png" alt="logo" width="100px" height="45px" style="margin-left: 18px; margin-right: 20px;"></li>
+      <li><div class="input"><input id="search" type="text" name="search" placeholder="Eg. Arduino boards, wires, sensors,etc...."></li></div>
+    <li><input type="submit" name="search" value="Search" onclick="search()"></li> 
+        <li><a href="index.html" class="active">Home</a></li>
+        <li> <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Categories
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="boards.html">Arduino Boards</a>
+    <a href="sensors.html">Arduino Sensors</a>
+    <a href="wires.html">Connecting wires</a>
+    <a href="tools.html">Embedded System Tools</a>
+  </div>
+  </div> </li>
+        <li><a href="about.html">About us</a></li>
+         <li><a href="contact.html">Contact us</a></li>
+       <li><a href="login.html">Login</a></li>
+       <li><a href="signup.html">SignUp</a></li>
+       <li><img src="images/cat.jpg" alt="logo" width="50x" height="45px" style="margin-left: 18px; margin-right: 70px;"></li>
+    </ul>
+    </header> 
+<body style="background-color: #00BFFF"><br>
+
+ <div id="new">
+    <p style="color: black; font-size: 20px; padding-top: 120px"><b>My cat</b></p>   
+</div>
+
+
+
+
+<table border="2" align="center" width="70%"   >
+  <thead >
+    <tr bgcolor="white" >
+      <th>Item Pcture</th>
+      <th>Item Name </th>
+      <th> Quantity</th>
+      <th>Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr >
+      <th> <img src="images/boards/ATmega328p.jpg" alt="item-logo" style="width: 100px; height:100px;"></th>
+      <th><h4><b>Arduino ATmega328p</b></h4></th>
+      <th><form>
+  <div class="value-button" id="decrease" onclick="decreaseValue1()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue1()" value="Increase Value">+</div>
+</form></th>
+      <th> <b>GH&cent; 90.00</b></th>
+    </tr>
+
+
+<tr>
+      <th> <img src="images/sensors/cabon.jpg" alt="item-logo" style="width: 100px; height:100px;" /></th>
+      <th> <h4><b>CO<sub>2</sub> Arduino Sensor</b></h4></th>
+      <th><form>
+        <div class="value-button" id="decrease" onclick="decreaseValue2()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue2()" value="Increase Value">+</div>
+</form></th>
+      <th><b>GH&cent; 10.00</b></th>
+    </tr>
+
+
+    <tr>
+      <th><img src="images/tools/flush cutter.jpg" alt="item-logo" style="width:100px%; height:100px;"></th>
+      <th><h4><b>Flush cutter</b></h4></th>
+      <th><form>
+  <div class="value-button" id="decrease" onclick="decreaseValue3()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue3()" value="Increase Value">+</div>
+</form></th>
+      <th><b>GH&cent; 70.00</b></th>
+    </tr>
+
+
+
+ <tr>
+      <th><img src="images/wires/copy wires.jpg" alt="item-logo" style="width: 100px; height:100px;"></th>
+      <th> <h4><b>Copper Wire</b></h4></th>
+      <th><form>
+  <div class="value-button" id="decrease" onclick="decreaseValue3()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue3()" value="Increase Value">+</div>
+</form></th>
+      <th><b>GH&cent; 30.00</b></th>
+    </tr>
+  </tbody>
+  <tfoot >
+    
+    <tr>
+      <th co>Total</th>
+      <th></th>
+      <th></th>
+      <th>GH&cent; 200.00</th>
+
+    </tr>
+  </tfoot>
+
+
+</table>
+
+
+<style type="text/css">
+  
+
+  button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+</style>
+
+
+<div class="container2">
+<button type="button" class="cancelbtn">Update Cat</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <button type="submit">proceed to checkout</button>
+
+</div>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+<div id="ft" style="background-color: #0d0d0d; padding: 30px;">
+    <div style="margin-left: 130px;">
+        <h2>HOW TO REACH US</h2>
+            <p>Address: Supperanuation Hostel A155 </p>
+            <p>Phone: 0249643365</p>
+            <p>Email: <a href="mailto:larteyjoshua@gmail.com">Larteyjoshua@gmail.com</a></p>
+    </div>      
+           <div style="margin-left: 550 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;px; position: relative; margin-top: -153px;">
+             <h2>QUICK LINKS</h2>
+        <p><a href="">Job Vacancies</a></p>
+        <p><a href="categories.html">Categories</a></p>
+       <p> <a href="about.html">About Us</a></p></div>
+       <div style="margin-left: 1000px; position: relative; margin-top: -153px;">
+             <h2>COMPANY</h2>
+        <p><a href="about.html">Team</a></p>
+        <p><a href="about.html">Service</a></p>
+       <p> <a href="">Terms</a></p></div>     
+    </div>
+
+   <footer class="footer"><p>&copy Copyright 2019 Joshua Lartey</p></footer>
+</body>
+</html>
+  
+
+<style>
+  form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+form #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+</style>
+
+

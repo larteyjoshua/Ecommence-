@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Sign Up</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+
+   <header id="header">
+   <ul id="bar">
+      <li><img src="images/logo.png" alt="logo" width="100px" height="45px" style="margin-left: 18px; margin-right: 20px;"></li>
+      <li><div class="input"><input id="search" type="text" name="search" placeholder="Eg. Arduino boards, wires, sensors,etc...."></li></div>s
+    <li><input type="submit" name="search" value="Search" onclick="search()"></li> 
+        <li><a href="index.html" class="active">Home</a></li>
+        <li> <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Categories
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="boards.html">Arduino Boards</a>
+    <a href="sensors.html">Arduino Sensors</a>
+    <a href="wires.html">Connecting wires</a>
+    <a href="tools.html">Embedded System Tools</a>
+  </div>
+  </div> </li>
+        <li><a href="about.html">About us</a></li>
+         <li><a href="contact.html">Contact us</a></li>
+       <li><a href="login.html">Login</a></li>
+       <li><a href="signup.html">SignUp</a></li>
+       <li><img src="images/cat.jpg" alt="logo" width="50x" height="45px" style="margin-left: 18px; margin-right: 70px;"></li>
+    </ul>
+    </header> 
+<body style="background-color: #00BFFF"><br>
+</head>
+<body>
+   <br>
+<br>
+ <br>
+<br>
+ <br>
+<br>
+
+<div class="loginbox">
+  <h2>Sign Up</h2> 
+  <form onsubmit="loginvalidate(this)">
+     <p>Full Name</p>
+    <input type="text" name="name" placeholder="Enter your Full Name">
+    <p>Email</p>
+    <input type="text" name="email" placeholder="Enter your Email">
+    <p>Password</p>
+    <input type="Password" placeholder="Enter your Password" name="pass">
+    <p>Confirm Password</p>
+    <input type="Password" placeholder="Repeat password" name="pass">
+    <input type="submit" name="" value="submit" >
+    <span><a href="password.html">Forgot Password</a></span>
+    <span><a href="login.html" style="margin-left: 80px; text-decoration: underline;">Log in</a></span>
+  </form>
+</div>
+
+
+</html>
